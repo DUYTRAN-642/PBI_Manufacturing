@@ -47,12 +47,12 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 
 **Brainstorming for Metrics and Charts**
 
-**I. Understanding the Objectives (Based on Provided Data)**
+**I. Understanding the Objectives**
 
 * The Production Director needs to understand overall production efficiency, delays, and scrap rates.
 * Focus on identifying areas where production time can be reduced and quality improved.
 
-**II. Identifying Key Metrics (Based on Provided Data)**
+**II. Identifying Key Metrics**
 
 * **Core Metrics:**
     * Total Work Orders (326): Overall production volume.
@@ -66,7 +66,7 @@ This project focuses on developing an interactive and insightful Power BI dashbo
     * Average delay dates.
     * Average of startdate diff and Average of enddate diff.
 
-**III. Choosing the Right Charts (Based on Provided Data)**
+**III. Choosing the Right Charts**
 
 * **Overall Performance:**
     * Cards: Displaying Total Work Orders, Average Production Time, Delay Percentage, Scrapped Quantity.
@@ -80,7 +80,12 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 * **Time Based data**
     * Line chart: Displaying the Average number of delay dates.
 
-**Insights and Recommendations (Based on Provided Data)**
+![image](https://github.com/user-attachments/assets/11f5dfe2-ef23-4507-ad84-0b24654ed5ee)
+
+![image](https://github.com/user-attachments/assets/d137e9a2-b2a9-4a6e-a774-b03ac21abf50)
+
+
+**Insights and Recommendations**
 
 * **High Delay Percentage (51.5%):** Investigate the root causes of delays and implement measures to reduce them.
 * **Significant Scrap Quantity (17 units):** Focus on quality control, particularly addressing the Thermoform temperature issue. Further investigate the large number of unknown scrapped reasons.
@@ -89,21 +94,8 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 * **Cost Matrix:** Review the cost matrix for possible cost reductions.
 * **Sub assembly vs final assembly:** Research why there is such a difference in the time spent between sub assembly and final assembly.
 
-**How to Use This Dashboard**
-
-The dashboard is designed to be user-friendly and intuitive. The Production Director can use it to:
-
-* Monitor the current production status.
-* Identify bottlenecks and areas for improvement.
-* Track key performance indicators (KPIs).
-* Make data-driven decisions to optimize the production process.
-
 **Future Enhancements**
 
 * Incorporate more detailed data on work orders and production processes.
 * Develop predictive models to forecast production times and potential delays.
 * Integrate with other systems for a holistic view of the manufacturing operations.
-
-**Contact**
-
-For questions or feedback, please contact [Your Name] at [Your Email].
