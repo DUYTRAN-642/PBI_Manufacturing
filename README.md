@@ -26,7 +26,7 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 ![image](https://github.com/user-attachments/assets/e6e1bda3-762f-4b82-89e8-e55270fe9665)
 
 
-**Key Metrics (Based on Provided Data)**
+**Key Metrics**
 
 * **Total Work Orders:** 326
 * **Average Production Time:** 16.78 days
