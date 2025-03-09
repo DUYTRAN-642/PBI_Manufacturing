@@ -12,7 +12,7 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 
 **Methodology**
 
-* **Data Collection:** Gather relevant data on work orders, production times, delays, and scrap reasons (as provided in "Project3_Trần Khánh Duy_K31.pdf").
+* **Data Collection:** Gather relevant data on work orders, production times, delays, and scrap reasons.
 * **Power BI Development:** Design and develop an intuitive dashboard with interactive charts, graphs, and tables to visualize the data.
 * **Analysis and Insights:** Analyze the data to derive meaningful insights and identify trends, patterns, and areas for improvement.
 * **Recommendations:** Based on the analysis, provide actionable recommendations to the Production Director.
