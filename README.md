@@ -17,6 +17,15 @@ This project focuses on developing an interactive and insightful Power BI dashbo
 * **Analysis and Insights:** Analyze the data to derive meaningful insights and identify trends, patterns, and areas for improvement.
 * **Recommendations:** Based on the analysis, provide actionable recommendations to the Production Director.
 
+**Design Thinking**
+
+![image](https://github.com/user-attachments/assets/4ad7ec13-f7a5-4279-8273-eb25cad91d5d)
+
+![image](https://github.com/user-attachments/assets/31a4ea06-e0b1-402f-a75a-797886abb7b0)
+
+![image](https://github.com/user-attachments/assets/e6e1bda3-762f-4b82-89e8-e55270fe9665)
+
+
 **Key Metrics (Based on Provided Data)**
 
 * **Total Work Orders:** 326
