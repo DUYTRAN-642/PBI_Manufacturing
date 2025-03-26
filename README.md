@@ -1,9 +1,34 @@
-# LL Mountain Seat Assembly - Production Dashboard
+# 📊 Project Title: LL Mountain Seat Assembly - Production Dashboard
 
-**Project Overview**
+Author: DUY TRAN
 
-This project focuses on developing an interactive and insightful Power BI dashboard for the Production Director of LL Mountain Seat Assembly. The primary goal is to provide a clear, visual overview of the production operations, enabling data-driven decision-making and process improvement.
+Date: 2025-03-27
 
+Tools Used: Power BI
+
+# 📑 Table of Contents
+
+📌 Background & Overview
+
+📂 Dataset Description & Data Structure
+
+🧠 Design Thinking Process
+
+📊 Key Insights & Visualizations
+
+🔎 Final Conclusion & Recommendations
+
+# 📌 Background & Overview
+
+ ## 📖 What is this project about?
+
+ ✔️ This project focuses on developing an interactive and insightful Power BI dashboard for the Production Director of LL Mountain Seat Assembly. 
+ 
+ ✔️ The primary goal is to provide a clear, visual overview of the production operations, enabling data-driven decision-making and process improvement.
+
+ ## 👤 Who is this project for?
+
+ 
 **Key Objectives**
 
 * **Operational Visibility:** Create a comprehensive dashboard that offers a snapshot of the current production status.
