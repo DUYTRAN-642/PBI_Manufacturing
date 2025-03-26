@@ -28,8 +28,11 @@ Tools Used: Power BI
 
  ## 👤 Who is this project for?
 
+ ✔️ Production and planning managers:  use the dashboard to optimize production schedules, manage inventory effectively, allocate resources efficiently, and improve overall profitability
  
-**Key Objectives**
+ ✔️ Business/Data Analyst: Understanding Business Performance, Developing Reporting and Dashboards and Improving Data-Driven Decision Making
+ 
+ ## ❓ Key Objectives/Business Questions:
 
 * **Operational Visibility:** Create a comprehensive dashboard that offers a snapshot of the current production status.
 * **Performance Analysis:** Analyze key metrics such as production time, delays, and scrap rates to identify bottlenecks and areas for improvement.
