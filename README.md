@@ -62,7 +62,20 @@ Format: .csv
 <details>
 <summary>Fact Table 1: Production_WorkOrder</summary>
 <br>
-![image](https://github.com/user-attachments/assets/5ba9cf09-ae42-4fb5-b9cc-1436e787a9da)
+
+| Name           | Data Type |
+|----------------|-----------|
+| WorkOrderID    | int       |
+| ProductID      | int       |
+| OrderQty       | int       |
+| StockedQty     | int       |
+| ScrappedQty    | smallint  |
+| StartDate      | datetime  |
+| EndDate        | datetime  |
+| DueDate        | datetime  |
+| ScrapReasonID  | smallint  |
+| ModifiedDate   | datetime  |
+
 </details>
 
 **Design Thinking**
