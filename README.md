@@ -165,12 +165,12 @@ Tools Used: Power BI
 
 * **Overall Performance:**
     * Cards: Displaying Total Work Orders, Average Production Time, Delay Percentage, Scrapped Quantity.
-    * A new column  of Production Time was created by applying DAX and the given StarDate/EndDate columns
+    * A new column  of `Production Time` was created by applying DAX and the given StarDate/EndDate columns
 
       ```DAX
       Production Time = Production_WorkOrder[EndDate].[Date] - Production_WorkOrder[StartDate].[Date]
       ```
-    * the column of Delay was also deployed to see if each Work Order was finished after or before Due Date and a column calculted the number days of delay
+    * the column of `Delay` was also deployed to see if each Work Order was finished after or before Due Date and a column of `delay date num` was calculted the number days of delay
  
       ```DAX
       Delay = IF(Production_WorkOrder[EndDate].[Date] > Production_WorkOrder[DueDate].[Date], 1,
