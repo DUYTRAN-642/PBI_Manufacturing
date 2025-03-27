@@ -80,6 +80,7 @@ Format: .csv
 <details>
 <summary>Fact Table 2: Production_WorkOrderRouting</summary>
 <br>
+ 
 | Name              | Data Type   |
 |-------------------|-------------|
 | WorkOrderID       | int         |
@@ -94,12 +95,12 @@ Format: .csv
 | PlannedCost       | money       |
 | ActualCost        | money       |
 | ModifiedDate      | datetime    |
-
 </details>
 
 <details>
 <summary>Dim Table 1: Production_ScrapReason</summary>
 <br>
+ 
 | Name           | Data Type  |
 |----------------|------------|
 | ScrapReasonID  | smallint   |
@@ -111,6 +112,7 @@ Format: .csv
 <details>
 <summary>Dim Table 2: Production_Location</summary>
 <br>
+ 
 | Name          | Data Type   |
 |---------------|-------------|
 | LocationID    | smallint    |
@@ -124,6 +126,7 @@ Format: .csv
 <details>
 <summary>Dim Table 3: Production_Inventory</summary>
 <br>
+ 
  | Name                                                                 | Data Type      |
 |----------------------------------------------------------------------|----------------|
 | **ProductID**<br>Product identification number.<br>Foreign key to Product.ProductID | int            |
@@ -135,6 +138,7 @@ Format: .csv
 | **ModifiedDate**<br>Date and time the record was last updated.<br>Default: getdate() | datetime       |
 
 </details>
+
 **Design Thinking**
 
 ![image](https://github.com/user-attachments/assets/4ad7ec13-f7a5-4279-8273-eb25cad91d5d)
