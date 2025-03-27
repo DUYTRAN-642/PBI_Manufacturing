@@ -152,7 +152,7 @@ Tools Used: Power BI
 
 ![image](https://github.com/user-attachments/assets/e6e1bda3-762f-4b82-89e8-e55270fe9665)
 
-⚒️ Main Process
+# ⚒️ Main Process
 
 **Dashboard Features**
 
@@ -195,15 +195,49 @@ Tools Used: Power BI
 
 ![image](https://github.com/user-attachments/assets/d137e9a2-b2a9-4a6e-a774-b03ac21abf50)
 
+# 📊 Key Insights & Visualizations
 
-**Insights and Recommendations**
+### 📌 Page 1 - Manufacturing Overview
 
-* **High Delay Percentage (51.5%):** Investigate the root causes of delays and implement measures to reduce them.
-* **Significant Scrap Quantity (17 units):** Focus on quality control, particularly addressing the Thermoform temperature issue. Further investigate the large number of unknown scrapped reasons.
-* **Production Time Trends:** Analyze the fluctuations in production time to identify potential bottlenecks or seasonal variations.
-* **Scheduled vs. Actual Times:** Address the differences between scheduled and actual times to improve planning and execution accuracy.
-* **Cost Matrix:** Review the cost matrix for possible cost reductions.
-* **Sub assembly vs final assembly:** Research why there is such a difference in the time spent between sub assembly and final assembly.
+![image](https://github.com/user-attachments/assets/1bddd3c7-1bd2-4f68-bd8a-6aa7a92f5bbd)
+
+**Observation:**
+
+* **Overall Production Time and Work Orders:** The average production time is 15.6 days, with a total of 326 work orders.
+* **Production Time Trend:** Production time fluctuates over the months shown, with some variability. It's important to note the specific values for each month to understand the extent of these fluctuations.
+* **Order Quantity by Month:** Order quantity varies by month, with peaks and troughs throughout the year. Notably, some months show higher order quantities than others. 
+* **Average Delay:** The average number of delay days is 2.6.
+* **Delay Percentage:** The delay percentage is 51.5%. 
+* **Scrapped Quantity:** The scrapped quantity is 11. 
+* **Scrapped Quantity Reasons:** "Wheel misaligned" is one reason for scrapping, with a quantity of 6. 
+* **Production Time Trend Over Quarters:** Production time varies across quarters, with specific values for each quarter in 2013 and 2014. 
+
+**Recommendation:**
+
+* **Investigate Delay Causes:** A high delay percentage (51.5%) warrants further investigation into the root causes of these delays. Implement process improvements or resource adjustments to reduce delays and improve on-time delivery.
+* **Analyze Production Time Variability:** Analyze the factors contributing to the fluctuations in production time. Implement strategies to stabilize production times, potentially through better resource allocation or process optimization.
+* **Address Scrapped Quantity:** Focus on quality control measures to reduce the scrapped quantity, particularly addressing the "Wheel misaligned" issue. Determine the root cause of this misalignment and implement corrective actions.
+* **Optimize Order Quantity Management:** Analyze the monthly order quantity data to identify patterns or seasonality. Improve forecasting and capacity planning to efficiently handle fluctuations in demand.
+
+## 📌 Page 2 - Manufacturing Analysis
+
+![image](https://github.com/user-attachments/assets/659a7e1c-edf7-4fdf-9a11-8547199e5160)
+
+**Observation:**
+
+* **Planned vs. Actual Costs:** The dashboard compares planned and actual costs, showing variations across quarters. For example, in one quarter, the sum of planned cost is $7.3K, while the sum of actual cost is $7.4K. 
+* **Number of Work Orders:** The number of work orders varies by quarter. 
+* **Delay Cases:** The number of delay cases is shown. 
+* **Planned and Actual Production Time:** The dashboard compares average actual and scheduled production times, showing differences across quarters. 
+* **Difference of Start/End Date:** The average difference between start and end dates, as well as scheduled dates, is displayed, showing variations over time. 
+* **Location Stocked:** The dashboard provides a breakdown of where items are stocked, including Subassembly (39.9%), Miscellaneous Storage (33.5%), and Final Assembly (26.6%).
+
+**Recommendation:**
+
+* **Cost Variance Analysis:** Conduct a detailed cost variance analysis to understand the discrepancies between planned and actual costs. Identify areas where costs are exceeding estimates and implement cost control measures.
+* **Production Scheduling Optimization:** Analyze the differences between actual and scheduled production times to improve production scheduling accuracy. Identify bottlenecks or inefficiencies that contribute to these discrepancies.
+* **Start/End Date Management:** Investigate the differences in start and end dates to identify potential delays or scheduling issues. Implement better project management practices to improve adherence to schedules.
+* **Inventory Optimization:** Analyze the location stocked data to optimize inventory management. Ensure efficient flow of materials between Subassembly, Miscellaneous Storage, and Final Assembly to minimize delays and reduce storage costs.
 
 **Future Enhancements**
 
