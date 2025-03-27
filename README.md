@@ -49,18 +49,18 @@ Tools Used: Power BI
 
  ## 📌 Data Source
  
-Source: **AdventureWorks** - Microsoft SQL Server sample database, a fictitious bicycle manufacturer (Adventure Works Cycles).
+**Source:** **AdventureWorks** - Microsoft SQL Server sample database, a fictitious bicycle manufacturer (Adventure Works Cycles).
 
-Size: This project uses 5 tables recorded the production information of product 'LL Mountain Seat Assembly' 
+**Size:** This project uses 5 tables recorded the production information of product 'LL Mountain Seat Assembly' 
 
-Format: .csv
+**Format:** .csv
 
 ## 📊 Data Structure & Relationships
 
 1️⃣ Table Schema
 
 <details>
-<summary>Fact Table 1: Production_WorkOrder</summary>
+<summary>👉🏻 Fact Table 1: Production_WorkOrder</summary>
 <br>
 
 | Name           | Data Type |
@@ -78,7 +78,7 @@ Format: .csv
 </details>
 
 <details>
-<summary>Fact Table 2: Production_WorkOrderRouting</summary>
+<summary>👉🏻 Fact Table 2: Production_WorkOrderRouting</summary>
 <br>
  
 | Name              | Data Type   |
@@ -98,7 +98,7 @@ Format: .csv
 </details>
 
 <details>
-<summary>Dim Table 1: Production_ScrapReason</summary>
+<summary>👉🏻 Dim Table 1: Production_ScrapReason</summary>
 <br>
  
 | Name           | Data Type  |
@@ -110,7 +110,7 @@ Format: .csv
 </details>
 
 <details>
-<summary>Dim Table 2: Production_Location</summary>
+<summary>👉🏻 Dim Table 2: Production_Location</summary>
 <br>
  
 | Name          | Data Type   |
@@ -124,7 +124,7 @@ Format: .csv
 </details>
 
 <details>
-<summary>Dim Table 3: Production_Inventory</summary>
+<summary>👉🏻 Dim Table 3: Production_Inventory</summary>
 <br>
  
  | Name                                                                 | Data Type      |
@@ -139,7 +139,12 @@ Format: .csv
 
 </details>
 
-**Design Thinking**
+2️⃣ Data Relationships:
+
+![image](https://github.com/user-attachments/assets/5bce1abf-ad4d-4051-9abf-dffbb9fc52c1)
+
+
+🧠 Design Thinking Process
 
 ![image](https://github.com/user-attachments/assets/4ad7ec13-f7a5-4279-8273-eb25cad91d5d)
 
@@ -147,18 +152,7 @@ Format: .csv
 
 ![image](https://github.com/user-attachments/assets/e6e1bda3-762f-4b82-89e8-e55270fe9665)
 
-
-**Key Metrics**
-
-* **Total Work Orders:** 326
-* **Average Production Time:** 16.78 days
-* **Delay Percentage:** 51.5%
-* **Scrapped Quantity:** 17 units
-* **Scrap Reasons:** Thermoform temperature (1 unit), Unknown (16 units)
-* **Production Time Trends:** Displayed by month from July 2013 to May 2014.
-* **Average Number of Delay Dates:** 15.6 days
-* **Difference Between Scheduled and Actual Times:** Displayed by month from April 2013 to April 2014 for Final Assembly and Subassembly.
-* **Average of Startdate diff and Average of Enddate diff by Year and Quarter**
+⚒️ Main Process
 
 **Dashboard Features**
 
@@ -167,31 +161,26 @@ Format: .csv
 * Filters and slicers for customized data views (e.g., by date, scrap reason).
 * Trend analysis to identify patterns and anomalies.
 
-**Brainstorming for Metrics and Charts**
-
-**I. Understanding the Objectives**
-
-* The Production Director needs to understand overall production efficiency, delays, and scrap rates.
-* Focus on identifying areas where production time can be reduced and quality improved.
-
-**II. Identifying Key Metrics**
-
-* **Core Metrics:**
-    * Total Work Orders (326): Overall production volume.
-    * Average Production Time (16.78 days): Efficiency and speed of production.
-    * Delay Percentage (51.5%): Bottlenecks and potential issues.
-    * Scrapped Quantity (17 units): Quality control and waste reduction.
-* **Supporting Metrics:**
-    * Production Time Trends (Monthly): Identifying patterns and seasonality.
-    * Scrap Reasons (Thermoform temperature, Unknown): Addressing quality issues.
-    * Difference Between Scheduled and Actual Times (Monthly): accuracy in planning and execution.
-    * Average delay dates.
-    * Average of startdate diff and Average of enddate diff.
-
-**III. Choosing the Right Charts**
+**Choosing the Right Charts**
 
 * **Overall Performance:**
     * Cards: Displaying Total Work Orders, Average Production Time, Delay Percentage, Scrapped Quantity.
+    * A new column  of Production Time was created by applying DAX and the given StarDate/EndDate columns
+
+      ```DAX
+      Production Time = Production_WorkOrder[EndDate].[Date] - Production_WorkOrder[StartDate].[Date]
+      ```
+    * the column of Delay was also deployed to see if each Work Order was finished after or before Due Date and a column calculted the number days of delay
+ 
+      ```DAX
+      Delay = IF(Production_WorkOrder[EndDate].[Date] > Production_WorkOrder[DueDate].[Date], 1,
+        if (Production_WorkOrder[EndDate].[Date] > Production_WorkOrder[DueDate].[Date], 2,0))
+      ```
+
+      ```DAX
+      delay date num = Production_WorkOrder[EndDate].[Date] - Production_WorkOrder[DueDate].[Date]
+      ```
+      
 * **Trends and Patterns:**
     * Line Charts: Visualizing Production Time Trends over time (monthly).
     * Column Charts: Comparing scheduled vs actual times for sub and final assembly.
