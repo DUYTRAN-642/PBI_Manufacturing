@@ -62,7 +62,7 @@ Format: .csv
 <details>
 <summary>Fact Table 1: Production_WorkOrder</summary>
 <br>
-![image](https://raw.githubusercontent.com/user-attachments/assets/5ba9cf09-ae42-4fb5-b9cc-1436e787a9da)
+<img src="https://raw.githubusercontent.com/user-attachments/assets/5ba9cf09-ae42-4fb5-b9cc-1436e787a9da" alt="image" />
 </details>
 
 **Design Thinking**
