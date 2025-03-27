@@ -144,7 +144,7 @@ Tools Used: Power BI
 ![image](https://github.com/user-attachments/assets/5bce1abf-ad4d-4051-9abf-dffbb9fc52c1)
 
 
-🧠 Design Thinking Process
+# 🧠 Design Thinking Process
 
 ![image](https://github.com/user-attachments/assets/4ad7ec13-f7a5-4279-8273-eb25cad91d5d)
 
@@ -191,13 +191,9 @@ Tools Used: Power BI
 * **Time Based data**
     * Line chart: Displaying the Average number of delay dates.
 
-![image](https://github.com/user-attachments/assets/11f5dfe2-ef23-4507-ad84-0b24654ed5ee)
-
-![image](https://github.com/user-attachments/assets/d137e9a2-b2a9-4a6e-a774-b03ac21abf50)
-
 # 📊 Key Insights & Visualizations
 
-### 📌 Page 1 - Manufacturing Overview
+## 📌 Page 1 - Manufacturing Overview
 
 ![image](https://github.com/user-attachments/assets/1bddd3c7-1bd2-4f68-bd8a-6aa7a92f5bbd)
 
@@ -239,8 +235,11 @@ Tools Used: Power BI
 * **Start/End Date Management:** Investigate the differences in start and end dates to identify potential delays or scheduling issues. Implement better project management practices to improve adherence to schedules.
 * **Inventory Optimization:** Analyze the location stocked data to optimize inventory management. Ensure efficient flow of materials between Subassembly, Miscellaneous Storage, and Final Assembly to minimize delays and reduce storage costs.
 
-**Future Enhancements**
+# 🔎 Final Conclusion and Future Enhancements
 
+👉🏻 Based on the insights and findings above, The analysis of the manufacturing overview and analysis dashboards of product 'LL Mountain Seat Assembly'  reveals several critical areas that require attention to improve overall production efficiency and effectiveness. High delay percentages (51.5%), variability in production time, discrepancies between planned and actual costs, and issues with scrapped quantities  indicate significant challenges within the manufacturing process. To address these issues, it is crucial to implement process improvements 
+
+## 📌 Future Enhancements
 * Incorporate more detailed data on work orders and production processes.
 * Develop predictive models to forecast production times and potential delays.
 * Integrate with other systems for a holistic view of the manufacturing operations.
