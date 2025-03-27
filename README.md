@@ -38,12 +38,33 @@ Tools Used: Power BI
 * **Performance Analysis:** Analyze key metrics such as production time, delays, and scrap rates to identify bottlenecks and areas for improvement.
 * **Actionable Insights:** Provide data-backed recommendations to optimize the production process and enhance efficiency.
 
-**Methodology**
+ ## 🗝️ Methodology
 
 * **Data Collection:** Gather relevant data on work orders, production times, delays, and scrap reasons.
 * **Power BI Development:** Design and develop an intuitive dashboard with interactive charts, graphs, and tables to visualize the data.
 * **Analysis and Insights:** Analyze the data to derive meaningful insights and identify trends, patterns, and areas for improvement.
 * **Recommendations:** Based on the analysis, provide actionable recommendations to the Production Director.
+
+# 📂 Dataset Description & Data Structure
+
+ ## 📌 Data Source
+ 
+Source: **AdventureWorks** - Microsoft SQL Server sample database, a fictitious bicycle manufacturer (Adventure Works Cycles).
+
+Size: This project uses 5 tables recorded the production information of product 'LL Mountain Seat Assembly' 
+
+Format: .csv
+
+## 📊 Data Structure & Relationships
+
+1️⃣ Table Schema
+
+<details>
+<summary>Fact Table 1: Production_WorkOrder</summary>
+<br>
+![image](https://github.com/user-attachments/assets/5ba9cf09-ae42-4fb5-b9cc-1436e787a9da)
+
+</details>
 
 **Design Thinking**
 
