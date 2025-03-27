@@ -75,9 +75,66 @@ Format: .csv
 | DueDate        | datetime  |
 | ScrapReasonID  | smallint  |
 | ModifiedDate   | datetime  |
+</details>
+
+<details>
+<summary>Fact Table 2: Production_WorkOrderRouting</summary>
+<br>
+| Name              | Data Type   |
+|-------------------|-------------|
+| WorkOrderID       | int         |
+| ProductID         | int         |
+| OperationSequence | smallint    |
+| LocationID        | smallint    |
+| ScheduledStartDate| datetime    |
+| ScheduledEndDate  | datetime    |
+| ActualStartDate   | datetime    |
+| ActualEndDate     | datetime    |
+| ActualResourceHrs | decimal(9,4)|
+| PlannedCost       | money       |
+| ActualCost        | money       |
+| ModifiedDate      | datetime    |
 
 </details>
 
+<details>
+<summary>Dim Table 1: Production_ScrapReason</summary>
+<br>
+| Name           | Data Type  |
+|----------------|------------|
+| ScrapReasonID  | smallint   |
+| Name           | nvarchar(50)|
+| ModifiedDate   | datetime   |
+
+</details>
+
+<details>
+<summary>Dim Table 2: Production_Location</summary>
+<br>
+| Name          | Data Type   |
+|---------------|-------------|
+| LocationID    | smallint    |
+| Name          | nvarchar(50)|
+| CostRate      | smallmoney  |
+| Availability  | decimal(8,2)|
+| ModifiedDate  | datetime    |
+
+</details>
+
+<details>
+<summary>Dim Table 3: Production_Inventory</summary>
+<br>
+ | Name                                                                 | Data Type      |
+|----------------------------------------------------------------------|----------------|
+| **ProductID**<br>Product identification number.<br>Foreign key to Product.ProductID | int            |
+| **LocationID**<br>Inventory location identification number.<br>Foreign key to Location.LocationID | smallint       |
+| **Shelf**<br>Storage compartment within an inventory location        | nvarchar(10)   |
+| **Bin**<br>Storage container on a shelf in an inventory location    | tinyint        |
+| **Quantity**<br>Quantity of products in the inventory location.<br>Default: 0 | smallint       |
+| **rowguid**<br>ROWGUIDCOL number uniquely identifying the record.<br>Used to support a merge replication sample.<br>Default: newid() | uniqueidentifier |
+| **ModifiedDate**<br>Date and time the record was last updated.<br>Default: getdate() | datetime       |
+
+</details>
 **Design Thinking**
 
 ![image](https://github.com/user-attachments/assets/4ad7ec13-f7a5-4279-8273-eb25cad91d5d)
