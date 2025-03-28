@@ -14,6 +14,8 @@ Tools Used: Power BI
 
 🧠 [Design Thinking Process](#design-thinking-process)
 
+⚒️ [Main Process](#main-process)
+
 📊 [Key Insights & Visualizations](#key-insights--visualizations)
 
 🔎 [Final Conclusion and Future Enhancements](#final-conclusion-and-future-enhancements)
@@ -239,7 +241,7 @@ Tools Used: Power BI
 
 👉🏻 Based on the insights and findings above, The analysis of the manufacturing overview and analysis dashboards of product 'LL Mountain Seat Assembly'  reveals several critical areas that require attention to improve overall production efficiency and effectiveness. High delay percentages (51.5%), variability in production time, discrepancies between planned and actual costs, and issues with scrapped quantities  indicate significant challenges within the manufacturing process. To address these issues, it is crucial to implement process improvements 
 
-## 📌 Future Enhancements
+### 📌 Future Enhancements
 * Incorporate more detailed data on work orders and production processes.
 * Develop predictive models to forecast production times and potential delays.
 * Integrate with other systems for a holistic view of the manufacturing operations.
