@@ -14,7 +14,7 @@ Tools Used: Power BI
 
 🧠 [Design Thinking Process](#-design-thinking-process)
 
-⚒️ [Main Process](#-Main-Process)
+⚒️ [Main Process](#-main-process)
 
 📊 [Key Insights & Visualizations](#-key-insights--visualizations)
 
